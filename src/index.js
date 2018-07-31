@@ -122,7 +122,7 @@ export default class SvgAnimatedLinearGradient extends Component {
                             offset={this.state.offsets[2]}
                             stopColor={this.props.primaryColor}
                             stopOpacity="1"/>
-                    </Svg.LinearGradient>
+                    </LinearGradient>
                     <ClipPath id="clip">
                         <G>
                             {this.props.children}
